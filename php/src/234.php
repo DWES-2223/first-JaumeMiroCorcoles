@@ -12,12 +12,12 @@ $persones = ["jaume" => 1.80,"lucas" => 1.78,"arantxa" => 1.70,"arthur" => 1.83,
     <td>Nom</td>
     <td>Altura</td>
     </thead>
-<?php
-foreach ($persones as $persona => $altura){?>
+    <?php
+    foreach ($persones as $persona => $altura){?>
         <tr>
             <td><?= $persona?></td>
             <td><?= $altura?></td>
         </tr>
-<?php } ?>
+    <?php } ?>
 </body>
 </html>
