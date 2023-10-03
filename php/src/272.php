@@ -14,4 +14,4 @@ echo "<br/>";
 $atletaMesJove = jove($records);
 echo "El atleta más joven en conseguir un récord es: " . $atletaMesJove;
 echo "<br/>";
-include_once ("270a.php");
+include_once ("270.php");

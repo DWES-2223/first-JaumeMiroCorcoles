@@ -121,16 +121,12 @@ function encontrarMasLaureado($array) {
             $contador = $num;
         }
     }
-
     return $masLaureado;
 }
 
 function any($data) {
     $parts = explode(".", $data);
-
-    $any = end($parts);
-
-    return $any;
+    return end($parts);
 }
 
 function jove($records) {

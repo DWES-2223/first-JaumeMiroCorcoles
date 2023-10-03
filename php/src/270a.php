@@ -1,5 +1,6 @@
 
 <table>
+    <!-- La capçalera de la taula -->
     <thead>
     <tr>
         <th>Prova</th>
@@ -11,6 +12,7 @@
         <th>Lloc</th>
     </tr>
     </thead>
+    <!-- El cos de la taula -->
     <tbody>
     <?php
     foreach ($records as $prova => $record){?>
